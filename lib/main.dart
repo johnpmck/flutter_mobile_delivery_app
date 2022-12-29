@@ -85,3 +85,15 @@ class UnknownRoute extends StatelessWidget {
     return const Center(child: Text('Uh oh! Route not found...'));
   }
 }
+
+/// login -> https://user-images.githubusercontent.com/101197720/210018415-a372c567-784e-4437-b3b9-5a90b88cb29b.jpg
+/// 
+/// board -> https://user-images.githubusercontent.com/101197720/210018464-c6bb3910-3a13-499a-a121-d6093c587a56.jpg
+/// 
+/// stop details -> https://user-images.githubusercontent.com/101197720/210018519-e99b25b7-403b-4ce3-8a23-6949632023b0.jpg
+/// 
+/// scan -> https://user-images.githubusercontent.com/101197720/210018479-65d19f83-b44b-44fe-9265-c27e5044aa42.jpg
+/// 
+/// map -> https://user-images.githubusercontent.com/101197720/210018685-f5b49e6b-2874-4ecd-996f-0bf5651008c7.jpg
+/// 
+/// summary -> https://user-images.githubusercontent.com/101197720/210018711-cf50ce90-60de-4055-99bd-fb20a204c1a5.jpg
