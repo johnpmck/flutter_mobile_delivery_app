@@ -107,9 +107,7 @@ class StopDetailsTile extends ConsumerWidget {
                   ),
                 ],
               ),
-
-              /// Fill remaining horizontal sapce in Row.
-              Expanded(child: Container()),
+              const Spacer(),
               Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -146,7 +144,7 @@ class StopDetailsTile extends ConsumerWidget {
               ),
               const Padding(
                 padding: EdgeInsets.only(left: 8.0),
-                child: Icon(Icons.drag_indicator),
+                child: Icon(Icons.more_vert_rounded),
               ),
             ],
           ),

@@ -25,9 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.system,
+      title: 'Mobile Delivery App',
       initialRoute: '/login',
       onGenerateRoute: (settings) {
         switch (settings.name) {

@@ -9,7 +9,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'G9Qb2vHVtK',
     label: 'Concord, NH, City Hall',
-    addressLineOne: '41 Green Street',
+    addressLineOne: '41 Green St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7376',
     numPieces: 1,
@@ -26,7 +26,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'KkNZ12Gf6B',
     label: 'NH State Library',
-    addressLineOne: '20 Park Street',
+    addressLineOne: '20 Park St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7346',
     numPieces: 2,
@@ -35,7 +35,7 @@ List<StopData> _sampleData = [
     lat: 43.20750426667522,
     lon: -71.53869204669401,
     trackingNums: ['1Z54F78A0450293517', '1Z33G36C0341371253'],
-    attributes: [],
+    attributes: ['alternate_location'],
     completed: false,
   ),
 
@@ -43,7 +43,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'YCrVWsNHQq',
     label: 'Vanacore Law Offices',
-    addressLineOne: '19 Washington Street #4341',
+    addressLineOne: '19 Washington St #4341',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7421',
     numPieces: 1,
@@ -60,7 +60,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'ndEVbxv6Tp',
     label: 'Fraser Insurance Services',
-    addressLineOne: '7 Green Street',
+    addressLineOne: '7 Green St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7421',
     numPieces: 1,
@@ -77,7 +77,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'H9txuSAWZA',
     label: 'Anderson & Cloues',
-    addressLineOne: '13 Green Street',
+    addressLineOne: '13 Green St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '8541',
     numPieces: 3,
@@ -98,7 +98,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'mWJfCmImOG',
     label: 'South Mane Barbershop',
-    addressLineOne: '28 S Main Street #1B',
+    addressLineOne: '28 S Main St #1B',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7483',
     numPieces: 1,
@@ -115,7 +115,7 @@ List<StopData> _sampleData = [
   StopData(
     id: '7eTpR3Zy76',
     label: 'Thompson Insurance Agency',
-    addressLineOne: '63 S Main Street',
+    addressLineOne: '63 S Main St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7397',
     numPieces: 1,
@@ -132,7 +132,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'SA1HfY441H',
     label: 'The UPS Store',
-    addressLineOne: '75 S Main Street',
+    addressLineOne: '75 S Main St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7386',
     numPieces: 1,
@@ -149,7 +149,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'RPTDoekbfV',
     label: 'Genoa Healthcare',
-    addressLineOne: '10 West Street',
+    addressLineOne: '10 West St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7376',
     numPieces: 1,
@@ -166,7 +166,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'BI9mgiifwq',
     label: 'RePetes Comics & Collectibles',
-    addressLineOne: '106B S State Street',
+    addressLineOne: '106B S State St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7346',
     numPieces: 2,
@@ -183,7 +183,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'oiBpvQiI3W',
     label: 'Amos Cleaners',
-    addressLineOne: '267 S Main Street',
+    addressLineOne: '267 S Main St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7421',
     numPieces: 1,
@@ -200,7 +200,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'jWTZ3u7MWa',
     label: 'Adult & Pediatric Dermatology, PC',
-    addressLineOne: '2 Pillsbury Street, Suite 501',
+    addressLineOne: '2 Pillsbury St, Suite 501',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7421',
     numPieces: 1,
@@ -217,7 +217,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'RipSGFVD1v',
     label: 'NH State Council of the Arts',
-    addressLineOne: '19 Pillsbury Street #1',
+    addressLineOne: '19 Pillsbury St #1',
     addressLineTwo: 'Concord, NH 03301',
     hin: '8541',
     numPieces: 3,
@@ -238,7 +238,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'qLkKx5cKc5',
     label: 'P & M Heating Services',
-    addressLineOne: '307 S Main Street',
+    addressLineOne: '307 S Main St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7483',
     numPieces: 1,
@@ -255,7 +255,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'NswOIRJeVv',
     label: 'Music Workshop of Concord',
-    addressLineOne: '64 Dunklee Street',
+    addressLineOne: '64 Dunklee St',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7397',
     numPieces: 1,
@@ -272,7 +272,7 @@ List<StopData> _sampleData = [
   StopData(
     id: 'XHNuXYLMdw',
     label: 'Amsden H & H Sons Surveyors',
-    addressLineOne: '5 Wilfred Avenue A',
+    addressLineOne: '5 Wilfred Ave A',
     addressLineTwo: 'Concord, NH 03301',
     hin: '7386',
     numPieces: 1,
