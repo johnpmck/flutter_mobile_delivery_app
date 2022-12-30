@@ -2,4 +2,8 @@
 
 Mock delivery application built with Flutter.
 
-![alt text][https://user-images.githubusercontent.com/101197720/210018415-a372c567-784e-4437-b3b9-5a90b88cb29b.jpg]
+<img src="https://user-images.githubusercontent.com/101197720/210018415-a372c567-784e-4437-b3b9-5a90b88cb29b.jpg" width="730" height="1296">
+
+<img src="https://user-images.githubusercontent.com/101197720/210018464-c6bb3910-3a13-499a-a121-d6093c587a56.jpg" width="730" height="1296">
+
+<img src="https://user-images.githubusercontent.com/101197720/210018685-f5b49e6b-2874-4ecd-996f-0bf5651008c7.jpg" width="730" height="1296">
