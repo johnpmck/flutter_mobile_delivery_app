@@ -67,14 +67,27 @@ class _LoginViewState extends ConsumerState<LoginView> {
             height: dh,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/loginBackground.png'),
+                image: AssetImage('assets/images/loginBackground.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(height: dh * 0.08),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    const FlutterLogo(size: 100.0),
+                    const SizedBox(width: 16.0),
+                    Text(
+                      'MDA',
+                      style: theme.textTheme.headlineMedium
+                          ?.copyWith(color: theme.colorScheme.onBackground),
+                    )
+                  ],
+                ),
+                SizedBox(height: dh * 0.1),
                 Center(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -89,8 +102,8 @@ class _LoginViewState extends ConsumerState<LoginView> {
                         onFieldSubmitted: (value) => _validate(),
                         validator: (str) => _validateEmployeeId(str),
                         decoration: InputDecoration(
-                          labelText: 'Employee ID',
-                          helperText: 'Enter your 7 digit employee ID',
+                          hintText: 'Employee ID',
+                          helperText: 'Enter your 7 digit employee Id',
                           helperStyle: theme.textTheme.caption
                               ?.copyWith(color: theme.colorScheme.onBackground),
                           isDense: true,
